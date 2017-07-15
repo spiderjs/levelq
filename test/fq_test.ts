@@ -6,6 +6,7 @@ import {
     IFIFO, LevelQService,
 } from '../src';
 
+import rx = require('rx');
 import log4js = require('log4js');
 import crypto = require('crypto');
 import assert = require('assert');

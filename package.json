@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "prepublish": "tsc -p .",
-    "dev": "mocha-typescript-watch dist/test config"
+    "dev": "mocha-typescript-watch dist/test config",
+    "loop": "tsc -p . && node dist/src/loop.js"
   },
   "dependencies": {
     "@types/leveldown": "^1.7.0",
